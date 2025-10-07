@@ -1,0 +1,29 @@
+Use Power Query for :
+
+1 - Check Duplicated Data and handle it
+
+2 - Handle Blank Rows 
+
+3 - Replace Null values using fill up /down for text data and median for numerical data in general
+
+4 - Merge the first three columns  Seprated by (-) to create a new column called Invoice_ID
+
+5 - Transform the Gender column so that F → Female and M → Male
+
+6 - Check the Values in Price Column 
+
+7 - Check Spelling In Column Product line , Payment
+
+8 - Add Serial Column Start from 1001 
+
+9 - Add a custom column to calculate Tax_5%  as (Unit_Price * Quantity * 0.05)
+
+10 - Add another custom column to calculate Total Sales as  (Unit_Price * Quantity) + Tax_5%
+
+11 - add Conditional Column → if Total Sales  less than 200 →   Low , else if less than 500 →  Medium , else High
+
+12 - add Conditional Column → if  Rating    less than 5 →   Low , else if less than 7 →  Medium , else High
+
+13 - Extract the Year  , Month , Day from the Date column
+
+14 - Duplicate the table , in the new table group the data by Branch →   calculate total sales , Avg Rating for each Branch
